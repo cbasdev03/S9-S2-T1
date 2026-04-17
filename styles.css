@@ -85,6 +85,50 @@ h2 {
     line-height: 1.6;
 }
 
+<<<<<<< HEAD
+.main-footer {
+    background-color: #050505;
+    border-top: 2px solid #00f2ff;
+    color: #ffffff;
+    padding: 30px 20px;
+    margin-top: 50px;
+}
+
+.footer-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Estilo para la imagen de la manzana */
+.footer-apple {
+    width: 60px; /* Tamaño pequeño para el footer */
+    height: auto;
+    filter: drop-shadow(0 0 5px rgba(255, 0, 0, 0.5)); /* Un pequeño brillo */
+    border-radius: 10px;
+}
+
+.footer-links a {
+    color: #a0a0a1;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.footer-links a:hover {
+    color: #00f2ff;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: #555;
+=======
 .video-card-container {
     width: 90%;
     max-width: 600px;
@@ -136,4 +180,5 @@ h2 {
         opacity: 1;
         transform: translateY(0);
     }
+>>>>>>> b4df5854efbc2bfaa4811d6e20cdba6746311d1a
 }
