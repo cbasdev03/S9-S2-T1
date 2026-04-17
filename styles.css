@@ -84,3 +84,56 @@ h2 {
     color: var(--text-dim);
     line-height: 1.6;
 }
+
+.video-card-container {
+    width: 90%;
+    max-width: 600px;
+    animation: fadeIn 1.2s ease-out; /* Animación de entrada */
+}
+
+/* El Marco del Video */
+.video-frame {
+    border: 4px solid #ff4b2b; /* Color vibrante para el marco */
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(255, 75, 43, 0.5); /* Resplandor */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Animación al pasar el mouse por encima */
+.video-frame:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 30px rgba(255, 75, 43, 0.8);
+}
+
+/* Estilos del Resumen */
+.video-summary {
+    margin-top: 20px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.05);
+    border-left: 5px solid #ff416c;
+    border-radius: 0 10px 10px 0;
+}
+
+.video-summary h3 {
+    margin-top: 0;
+    color: #ff416c;
+}
+
+.video-summary p {
+    line-height: 1.6;
+    font-size: 0.95rem;
+    color: #ccc;
+}
+
+/* Keyframes para la animación de entrada */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
